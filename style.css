@@ -1,0 +1,1171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* for navigation */
+header {
+    width: 100%;
+    height: 8.5vh;
+    background-color: #a80833;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    float: left;
+    width: 13\40px;
+    height: 7.5vh;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+nav {
+    float: left;
+    background-color: #a80833;
+    height: 8.5vh;
+    line-height: 8.5vh;
+    margin-left: 2px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav ul li {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 400;
+}
+
+nav ul li ul li {
+    width: 100px;
+}
+
+header nav ul li:hover {
+    background-color: rgba(255, 0, 0, 0.45);
+    transition: .2s;
+}
+
+#home {
+    width: 90px;
+    text-align: center;
+}
+
+/* for navigation */
+.dropdown {
+    position: absolute;
+    background-color: #282a35;
+    min-width: 138px;
+    margin-left: -9.5px;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.drop:hover .dropdown {
+    display: block;
+    transition: .2s;
+}
+
+
+.dropdown a:hover {
+    background-color: red;
+    transition: .2s;
+}
+
+.dropdown1 {
+    position: absolute;
+    background-color: #282a35;
+    min-width: 220px;
+    margin-left: -9.5px;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown1 a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.drop1:hover .dropdown1 {
+    display: block;
+    transition: .2s;
+}
+
+
+.dropdown1 a:hover {
+    background-color: red;
+    transition: .2s;
+}
+
+.dropdown2 {
+    position: absolute;
+    background-color: #282a35;
+    min-width: 220px;
+    margin-left: -9.5px;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown2 a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.drop2:hover .dropdown2 {
+    display: block;
+    transition: .2s;
+}
+
+
+.dropdown2 a:hover {
+    background-color: red;
+    transition: .2s;
+}
+
+.dropdown3 {
+    position: absolute;
+    background-color: #282a35;
+    min-width: 220px;
+    margin-left: -9.5px;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown3 a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.drop3:hover .dropdown3 {
+    display: block;
+    transition: .2s;
+}
+
+
+.dropdown3 a:hover {
+    background-color: red;
+    transition: .2s;
+}
+
+/* part after header */
+.bg1 {
+    width: 100%;
+    height: 92vh;
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+/* box for the form */
+.box {
+    width: 28%;
+    background-color: #a80833;
+    height: 40vh;
+    margin-top: 6vh;
+    margin-left: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bar1 {
+    width: 90%;
+
+    height: 5vh;
+    position: absolute;
+    top: 3.5%;
+    left: 5%;
+    right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip,
+.hotel {
+    width: 49%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 4.5vh;
+    font-weight: bold;
+    border: 2px solid lightgray;
+}
+
+.keyword {
+    width: 90%;
+    background-color: white;
+    height: 5vh;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    text-align: center;
+}
+
+#destiny {
+    width: 90%;
+    background-color: white;
+    height: 5vh;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    text-align: center;
+}
+
+#activity {
+    width: 90%;
+    background-color: white;
+    height: 5vh;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    text-align: center;
+}
+
+#duration {
+    width: 90%;
+    background-color: white;
+    height: 5vh;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    text-align: center;
+}
+
+.downbar{
+    width: 90%;
+    background-color: #a80833;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    color: white;
+    line-height: 5vh;
+    top: 82%;
+    left: 5%;
+    right: 5%;
+}
+
+.two-buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+/* black box for exploring the himalya */
+
+.box1 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 15vh;
+
+    line-height: 15vh;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    filter: brightness(85%);
+}
+
+
+
+.box1 a {
+    font-family: sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+.box1:hover {
+    filter: brightness(100%);
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .2s;
+}
+
+.first {
+    width: 95%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+.first1 {
+    width: 35%;
+    height: auto;
+    background-color: white;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+.first1 h1,
+.first1 p {
+    color: black;
+    margin: 3.5px;
+}
+
+
+.first1 p {
+    font-size: 18px;
+}
+
+.first11 {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 20.05vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+}
+
+
+.first2 {
+    width: 65%;
+    height: auto;
+    background-color: white;
+}
+
+/* gallery section */
+.gallery1 {
+    width: 100%;
+    height: 79vh;
+    background-color: white;
+    margin-top: 1.75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.first21 {
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.blackbar {
+    background-color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    position: absolute;
+    bottom: 0;
+    line-height: 5vh;
+    color: white;
+    font-size: 18px;
+    font: weight 450px;
+    filter: brightness(85%);
+    font-family: sans-serif;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.blackbar a {
+    color: white;
+}
+
+.blackbar:hover {
+    filter: brightness(100%);
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: .2s;
+}
+
+.first22 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.first23 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.first24 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.first25 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.first26 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.first27 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.first28 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.first29 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* view activities section */
+.viewact {
+    background-color: lightgray;
+    width: 100%;
+    margin-top: 16px;
+    height: 6vh;
+    border-radius: 10px;
+}
+
+.second {
+    width: 95%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+/* section after about and gallery */
+.second1 {
+    width: 35%;
+    height: auto;
+    background-color: #f4f4f4;
+    border: 1px solid lightgray;
+    margin-right: 1rem;
+    border-radius: 10px;
+
+}
+
+.second2 {
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+/* second gallery regions */
+.gallery2 {
+    width: 100%;
+    height: 63vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.second21 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.second22 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.second23 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.second24 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* view regions section */
+.viewreg {
+
+    background-color: lightgray;
+    width: 100%;
+    margin-top: 15px;
+    height: 6vh;
+    border-radius: 10px;
+}
+
+/* section after second gallery and popular holidays */
+.third {
+    width: 95%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.third1 {
+    width: 35%;
+    height: auto;
+    background-color: lightgray;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.third2 {
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* gallery for destinations */
+.gallery3 {
+    background-color: white;
+    width: 100%;
+    height: 27.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}
+
+.third21 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.third22 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.third23 {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* view destination section */
+.viewdestiny {
+    background-color: lightgray;
+    width: 100%;
+    margin-top: 15px;
+    height: 6vh;
+    border-radius: 10px;
+
+}
+
+
+
+footer {
+    background-color: #a80833;
+    width: 100%;
+    height: 63.5vh;
+}
+
+
+.foot1 {
+    width: 100%;
+
+    height: 7vh;
+    background-color: #282a35;
+    display: flex;
+    justify-content: center;
+}
+
+.foot1 a {
+    color: white;
+    font-size: 17px;
+}
+
+.foot1 a:hover {
+    font-size: larger;
+    transition: .2s;
+}
+
+
+.foot-section1 {
+    width: 95%;
+    height: 7vh;
+    background-color: inherit;
+    display: flex;
+    line-height: 7vh;
+    text-align: center;
+}
+
+.foot11 {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.foot12 {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.foot13 {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.foot14 {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.foot2 {
+    width: 100%;
+
+    height: 35vh;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-section2 {
+    width: 95%;
+    height: 35vh;
+    background-color: inherit;
+    display: flex;
+    text-align: center;
+}
+
+.foot-section2 a{
+    color: white;
+}
+
+.foot-section2 h3{
+    color: black;
+}
+
+.foot21 {
+    width: 25%;
+}
+
+.foot222{
+    margin-top: 1.5vh;
+    color: white;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.foot223{
+    margin-top: 1vh;
+}
+
+.foot22 {
+    width: 25%;
+}
+
+.foot23 {
+    width: 25%;
+}
+
+.foot24 {
+    width: 25%;
+}
+
+/* for enews-letter */
+.enews{
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 1.5vh;
+    background-color: inherit;
+}
+
+.heading{
+    width: 100%;
+    color: white;
+    background-color: inherit;
+    height: auto;
+    font-size: 19px;
+}
+
+.fname-lname{
+    width: 100%;
+    margin-top: 1.5vh;
+    background-color: inherit;
+    display: flex;
+    height: auto;
+}
+
+.fname{
+    width: 50%;
+    margin-right: 1rem;
+    
+}
+
+.lname{
+    width: 50%;
+
+}
+
+.email{
+    width: 100%;
+    margin-top: 1.5vh;
+    background-color: inherit;
+    height: auto;
+}
+
+.re-email{
+    width: 100%;
+    margin-top: 1.5vh;
+    background-color: inherit;
+    height: auto;
+}
+
+.sub{
+    width: 100%;
+    margin-top: 1.5vh;
+    background-color: inherit;
+    height: auto;
+}
+
+.enews input,button{
+    width: 100%;
+    height: 4.5vh;
+    line-height: 4.5vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.enews input[type=text]:focus {
+    border: 2px solid #282a35;
+    transition: .2s;
+  }
+
+.enews button{
+    background-color: #282a35;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    
+}
+
+.enews button:hover{
+    background-color: black;
+    font-size: larger;
+    transition: .2s;
+}
+
+
+/* for viewing */
+.viewact,
+.viewdestiny,
+.viewreg {
+    line-height: 6vh;
+    text-align: center;
+    font-size: 20px;
+    background-color: #f4f4f4;
+    border: solid 1px lightgray;
+    cursor: pointer;
+}
+
+.viewact a,
+.viewdestiny a,
+.viewreg a {
+    color: #a80833;
+    font-weight: 500;
+}
+
+#forview:hover {
+    background-color: #a80833;
+    border: 1px solid #282a35;
+    transition: .2s;
+}
+
+#forview:hover a {
+    color: white;
+
+    font-size: larger;
+    transition: .2s;
+}
+
+/* for exclusive adventure */
+.first11 {
+    position: relative;
+}
+
+.first11 a {
+    color: #282a35;
+}
+
+.first11 h2 {
+    margin-top: 2px;
+}
+
+
+.line {
+
+    border-top: solid 2px #a80833;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/* for all view trips section */
+.viewtrips {
+    background-color: lightgray;
+    width: 25%;
+    height: 5vh;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    line-height: 4.5vh;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid #a80833;
+    cursor: pointer;
+}
+
+.viewtrips a {
+    font-weight: 500;
+}
+
+.viewtrips:hover {
+    background-color: #a80833;
+    border: 1px solid #282a35;
+    transition: .2s;
+}
+
+.viewtrips:hover a {
+    color: white;
+    font-size: large;
+    transition: .2s;
+}
+
+/* for popular holidays */
+.second1 {
+    position: relative;
+}
+
+
+.second1 a {
+    color: #282a35;
+}
+
+.second11 {
+    border-bottom: 2px solid #a80833;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.second12 {
+    width: 97%;
+    height: 16vh;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.second13 {
+    width: 97%;
+    height: 16vh;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.second14 {
+    width: 97%;
+    height: 16vh;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.photo-section {
+    width: 30%;
+    height: 13vh;
+    margin-top: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.text-section {
+    width: 65%;
+    height: 13vh;
+    margin-top: 11px;
+    margin-right: 10px;
+    background-color: inherit;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+}
+
+/* for contact us */
+.third1 {
+    background-color: #f4f4f4;
+    border: 1px solid lightgray;
+}
+
+.contactus {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border-bottom: 2px solid #a80833;
+}
+
+.contactus a {
+    color: #282a35;
+}
+
+.contacticons h3 {
+    color: #a80833;
+}
+
+.contacticons {
+    margin-left: 10px;
+}
+
+#nepalicons,
+#englandicons,
+#envelopeicon {
+    cursor: pointer;
+}
+
+#nepalicons:hover {
+    color: red;
+    transition: .2s;
+}
+
+#englandicons:hover {
+    color: blue;
+    transition: .2s;
+}
+
+#envelopeicon:hover {
+    color: green;
+    transition: .2s;
+}
+
+/* for .enews-letter */
+.enews-letter {
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid lightgray;
+}
+
+.enews1 {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border-bottom: 2px solid #a80833;
+}
+
+/* follow */
+.follow-icons{
+    width: 65%;
+    margin: auto;
+    height: 7vh;
+    line-height: 7vh;
+    background-color: inherit;
+    margin-top: 1.5vh;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+}
+
+.fb{
+    width: 25%;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+.twitter{
+    width: 25%;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+.youtube{
+    width: 25%;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+.google{
+    width: 25%;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+
+#ficons:hover{
+    background-color: #f4f4f4;
+    transition: .2s;
+}
+#ficons:hover a{
+    
+    color: #282a35;
+    transition: .2s;
+}
+
+.lineforfoot3{
+    width: 100%;
+    height: 12vh;
+    background-color: inherit;
+    border-top: 1px solid #282a35;
+    border-bottom: 1px double #282a35;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.foot3{
+    width: 19%;
+    margin: auto;
+    height: 7vh;
+    line-height: 7vh;
+    background-color: inherit;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+}
+
+.gon{
+    width: 25%;
+    background-color: red;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.taan{
+    width: 25%;
+    background-color: blue;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.nma{
+    width: 25%;
+    background-color: green;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.ntb{
+    width: 25%;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.foot4{
+    width: 86%;
+    height: 5vh;
+    line-height: 5vh;
+    background-color: inherit;
+    margin: auto;
+    margin-top: 1vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-left{
+    width: 20%;
+    height: 5vh;
+    background-color: inherit;
+    font-size: 15px;
+    text-align: center;
+}
+
+.last-right{
+    width: auto;
+    height: 5vh;
+    background-color: inherit;
+}
+
+.last-right a{
+    color: white;
+}
+/* popular hoildays section */
+.intext{
+    width: auto;
+    height: auto;
+    margin-left: 0.5rem;
+    margin-top: 2vh;
+}
+
+.text-section a {
+    color: darkblue;
+}
+
+#top-a {
+    color: #a80833;
+}
